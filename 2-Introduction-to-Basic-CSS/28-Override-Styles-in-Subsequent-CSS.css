@@ -1,0 +1,16 @@
+/* When applying a css class the order its assigned to is important. If you apply more than one value to an  class attribute  the order you set it as will affect the output */
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text{
+    color: blue
+  }
+</style>
+<h1 class="blue-text pink-text ">Hello World!</h1>
