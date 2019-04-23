@@ -1,0 +1,12 @@
+/* this section explains how the elemets in HTML Inherit there styles from the body since HTML already has the body from the begining */
+
+<style>
+  body {
+    color: green;
+    background-color: black;
+    font-family: monospace;
+  }
+
+</style>
+
+<h1>Hello World</h1>
