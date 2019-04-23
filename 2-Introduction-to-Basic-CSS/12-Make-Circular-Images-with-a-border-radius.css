@@ -1,5 +1,5 @@
-
-/* This section went over border-radius property and how it can round the corners of a element */
+/* Update to correct file */
+/*  This section went over giving a percentage as a value is also accepted */
 
 
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
@@ -21,7 +21,7 @@
     border-color: green;
     border-width: 10px;
     border-style: solid;
-    border-radius: 10px
+    border-radius: 50%;
   }
 
   .smaller-image {
