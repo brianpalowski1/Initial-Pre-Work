@@ -1,0 +1,13 @@
+/* When adding a class to an element inside of the body the class will override the styling of the body to what you set the class style to */
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text{
+    color: pink;
+  }
+</style>
+<h1 class="pink-text">Hello World!</h1>
