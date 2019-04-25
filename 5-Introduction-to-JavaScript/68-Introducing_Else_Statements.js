@@ -1,8 +1,5 @@
 // in JS an else statement code can executed.
 
-
-
-
 function testElse(val) {
   var result = "";
   // Only change code below this line
