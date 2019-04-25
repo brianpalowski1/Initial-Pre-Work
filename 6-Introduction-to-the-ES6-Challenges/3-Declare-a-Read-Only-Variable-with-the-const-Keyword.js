@@ -1,4 +1,4 @@
-// Updated function with const and let
+// Const is assigned to a variable you do not need to change
 
 function printManyTimes(str) {
   "use strict";
