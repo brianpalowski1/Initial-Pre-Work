@@ -4,36 +4,37 @@
 
 ## When we hit https://www.techtonic.com/ what happens? Don’t focus too much on architecture (Monolithic, SOA, Microservices, etc.). Try to focus more on how the web functions in general terms/steps.
 
-put your answer here
+1- Browser will make a request to server address with information attatched to it
+2- Server will take information if accepted
+3- Server will send back requested data back to Browser
+4 Browser will read and translate data to user interface
+
 
 ## From start to finish, how does data reach you to be rendered in the browser?
+A browser retrieves the data from broken down HTTP packets sent from a server and the browser engine rebuilds the data starting from the structure of HTML to the styling and then applying the functionality.
 
-put your answer here
+
 
 ## What code is rendered in the browser?
-
-put your answer here
+- Java Script is used while rendering to the browser and adds the functionality
 
 ## What is the server-side code’s main function?
-
-put your answer here
+The server side code is mostly to connect your webpage to the Web or Server
 
 ## What is the client-side code’s main function?
+The client side code is mostly used for the user interface and interactivity with user.
 
-put your answer here
 
 ## What is runtime?
-
-put your answer here
+When a program is running
 
 ## How many instances of the client-side assets (HTML, CSS, JS, Images, etc.) are created?
-
-put your answer here
+You can have multiple instances each time you open a new window or tab you are getting a new instance of the page
 
 ## How many instances of the server-side code are available at any given time?
 
-put your answer here
+Depends on how many connections the server can handle  
 
 ## How many instances of the databases connected to the server application are created?
 
-put your answer here
+There is one instance when connecting to the database.
